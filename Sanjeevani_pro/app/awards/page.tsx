@@ -11,7 +11,7 @@ const awards = [
     image: "/placeholder.svg",
   },
   {
-    year: "2024",
+    year: "2025",
     title: "Innovation Excellence Award",
     organization: "Agri-Tech India Summit",
     description:
