@@ -32,7 +32,7 @@ const awards = [
     organization: "Federation of Indian Export Organizations",
     description:
       "Recognized for significant contribution to machinery exports and promoting Indian manufacturing globally.",
-    image: "/placeholder.svg",
+    image: "/award-img-2023.png",
   },
   {
     year: "2022",
