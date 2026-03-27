@@ -50,8 +50,6 @@ const awards = [
       "Certified for maintaining highest quality standards in manufacturing processes and product output.",
     image: "/award-img-2022.png",
   },
-
-  // ✅ YOUR REAL IMAGE ADDED HERE
   {
     year: "2021",
     title: "Rural Entrepreneurship Champion",
