@@ -27,12 +27,12 @@ const awards = [
     image: "/placeholder.svg",
   },
   {
-    year: "2023",
+    year: "2024",
     title: "Export Excellence Award",
     organization: "Federation of Indian Export Organizations",
     description:
       "Recognized for significant contribution to machinery exports and promoting Indian manufacturing globally.",
-    image: "/award-img-2023.png",
+    image: "/award-img-2024-1.png",
   },
   {
     year: "2023",
