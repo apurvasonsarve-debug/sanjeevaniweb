@@ -3,12 +3,12 @@ import { Award, Trophy, Medal, Star, CheckCircle } from "lucide-react"
 
 const awards = [
   {
-    year: "2024",
+    year: "2025",
     title: "Best Sustainable Manufacturing Company",
     organization: "Green India Awards",
     description:
       "Recognized for outstanding contribution to sustainable manufacturing practices and eco-friendly machinery production.",
-    image: "/placeholder.svg",
+    image: "/award-img-01.png",
   },
   {
     year: "2025",
