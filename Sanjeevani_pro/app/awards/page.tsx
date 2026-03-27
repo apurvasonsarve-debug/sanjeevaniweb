@@ -19,12 +19,12 @@ const awards = [
     image: "/placeholder.svg",
   },
   {
-    year: "2023",
+    year: "2024",
     title: "Top SME Manufacturer of the Year",
     organization: "MSME Development Forum",
     description:
       "Honored as the leading SME manufacturer in the agricultural machinery sector for consistent quality and growth.",
-    image: "/placeholder.svg",
+    image: "/award-img-2024-2.png",
   },
   {
     year: "2024",
