@@ -35,12 +35,12 @@ const awards = [
     image: "/award-img-2023.png",
   },
   {
-    year: "2022",
+    year: "2023",
     title: "Best Renewable Energy Equipment Manufacturer",
     organization: "National Renewable Energy Congress",
     description:
       "Awarded for manufacturing high-quality biomass and waste-to-energy conversion machinery.",
-    image: "/placeholder.svg",
+    image: "/award-img-2023.png",
   },
   {
     year: "2022",
@@ -48,7 +48,7 @@ const awards = [
     organization: "Bureau of Indian Standards",
     description:
       "Certified for maintaining highest quality standards in manufacturing processes and product output.",
-    image: "/placeholder.svg",
+    image: "/award-img-2022.png",
   },
 
   // ✅ YOUR REAL IMAGE ADDED HERE
