@@ -16,7 +16,7 @@ const awards = [
     organization: "Agri-Tech India Summit",
     description:
       "Awarded for innovative biochar production technology that revolutionizes carbon sequestration in agriculture.",
-    image: "/placeholder.svg",
+    image: "/award-img-2025.png",
   },
   {
     year: "2024",
