@@ -65,7 +65,7 @@ const awards = [
     organization: "Indian Agribusiness Awards",
     description:
       "Honored as the fastest-growing agricultural machinery company with innovative product portfolio.",
-    image: "/placeholder.svg",
+    image: "/award-img-2020.png",
   },
 ]
 
