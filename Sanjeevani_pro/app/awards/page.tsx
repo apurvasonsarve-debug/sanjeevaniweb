@@ -47,7 +47,7 @@ const awards = [
     title: "Samarth Mission Appreciation",
     organization: "Ministry of Power, Government of India",
     description:
-      "Certified for maintaining highest quality standards in manufacturing processes and product output.",
+      "Honored under the Samarth Mission initiative on October 10, 2022, for participation and contribution towards awareness and development activities in the power and energy sector.",
     image: "/award-img-2022.png",
   },
   {
