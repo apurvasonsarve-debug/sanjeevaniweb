@@ -12,8 +12,8 @@ const awards = [
   },
   {
     year: "2025",
-    title: "Agricultural Development Trust, Baramati | INORA",
-    organization: "Agri-Tech India Summit",
+    title: "National Symposium Recognition",
+    organization: "Agricultural Development Trust, Baramati | INORA",
     description:
       "Recognized as a Resource Person at the National Symposium on “Advancing Sustainability, Soil Health, Climate Resilience and Innovation with Biochar,” held on April 01–02, 2025, for valuable contribution and expertise in the field.",
     image: "/award-img-2025.png",
