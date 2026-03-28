@@ -52,7 +52,7 @@ const awards = [
   },
   {
     year: "2021",
-    title: "Rural Entrepreneurship Champion",
+    title: "BAMETI Foundation Day Recognition",
     organization: "Ministry of Rural Development",
     description:
       "Recognized for empowering rural entrepreneurs through affordable and efficient agricultural machinery solutions.",
