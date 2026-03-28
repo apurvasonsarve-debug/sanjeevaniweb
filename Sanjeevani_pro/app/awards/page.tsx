@@ -23,7 +23,7 @@ const awards = [
     title: "National Seminar on Biochar",
     organization: "Dr. S. V. Patil Foundation & University of Agricultural Sciences, Dharwad",
     description:
-      "Recognized as a Resource Person at the National Symposium on “Advancing Sustainability, Soil Health, Climate Resilience and Innovation with Biochar,” held on April 01–02, 2025, for valuable contribution and expertise in the field.",
+      "Honored for contribution at the National Seminar on “Integrating Biochar Production, Carbon Sequestration and Carbon Trading for Carbon Neutral Farming” (Dec 5–6, 2024), recognizing efforts in sustainable agricultural innovation.",
     image: "/award-img-2024-2.png",
   },
   {
