@@ -28,7 +28,7 @@ const awards = [
   },
   {
     year: "2024",
-    title: "Export Excellence Award",
+    title: "Industrial Expo & Business Conclave",
     organization: "Federation of Indian Export Organizations",
     description:
       "Recognized for significant contribution to machinery exports and promoting Indian manufacturing globally.",
