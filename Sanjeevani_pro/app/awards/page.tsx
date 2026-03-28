@@ -31,7 +31,7 @@ const awards = [
     title: "Industrial Expo & Business Conclave",
     organization: "Advantage Chandrapur 2024",
     description:
-      "Recognized for significant contribution to machinery exports and promoting Indian manufacturing globally.",
+      "Awarded recognition at the Industrial Expo and Business Conclave “Advantage Chandrapur 2024” (March 4–5, 2024) for contribution and involvement in industrial development and innovation.",
     image: "/award-img-2024-1.png",
   },
   {
