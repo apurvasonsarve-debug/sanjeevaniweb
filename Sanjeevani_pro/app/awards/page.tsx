@@ -36,7 +36,7 @@ const awards = [
   },
   {
     year: "2023",
-    title: "Best Renewable Energy Equipment Manufacturer",
+    title: "Maha Pashudhan Mahotsav Recognition",
     organization: "National Renewable Energy Congress",
     description:
       "Awarded for manufacturing high-quality biomass and waste-to-energy conversion machinery.",
