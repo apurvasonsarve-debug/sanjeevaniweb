@@ -5,7 +5,7 @@ const awards = [
   {
     year: "2025",
     title: "Achievers of Maharashtra Award",
-    organization: "Green India Awards",
+    organization: "Sakal Achievers of Maharashtra",
     description:
       "Recognized for outstanding contribution to sustainable manufacturing practices and eco-friendly machinery production.",
     image: "/award-img-01.png",
