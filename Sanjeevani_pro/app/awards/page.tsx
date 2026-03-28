@@ -20,7 +20,7 @@ const awards = [
   },
   {
     year: "2024",
-    title: "Top SME Manufacturer of the Year",
+    title: "National Seminar on Biochar",
     organization: "MSME Development Forum",
     description:
       "Honored as the leading SME manufacturer in the agricultural machinery sector for consistent quality and growth.",
