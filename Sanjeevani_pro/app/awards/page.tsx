@@ -29,7 +29,7 @@ const awards = [
   {
     year: "2024",
     title: "Industrial Expo & Business Conclave",
-    organization: "Federation of Indian Export Organizations",
+    organization: "Advantage Chandrapur 2024",
     description:
       "Recognized for significant contribution to machinery exports and promoting Indian manufacturing globally.",
     image: "/award-img-2024-1.png",
