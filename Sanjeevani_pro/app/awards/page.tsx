@@ -64,7 +64,7 @@ const awards = [
     title: "Trusted Business Award",
     organization: "IndiaMART TrustSEAL Recognition",
     description:
-      "Honored as the fastest-growing agricultural machinery company with innovative product portfolio.",
+      "Recognized for achieving IndiaMART TrustSEAL status, demonstrating verified business authenticity, reliability, and commitment to customer trust. Awarded in January 2020.",
     image: "/award-img-2020.png",
   },
 ]
