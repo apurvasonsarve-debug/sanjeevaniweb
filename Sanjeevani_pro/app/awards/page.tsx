@@ -55,7 +55,7 @@ const awards = [
     title: "BAMETI Foundation Day Recognition",
     organization: "Bihar Agricultural Management & Extension Training Institute (BAMETI), Patna",
     description:
-      "Recognized for empowering rural entrepreneurs through affordable and efficient agricultural machinery solutions.",
+      "Honored during the 20th Foundation Day Celebration (October 10–12, 2021) for contribution to agricultural training and development initiatives.",
     image: "/2021-award-img.png",
   },
 
