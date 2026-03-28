@@ -12,10 +12,10 @@ const awards = [
   },
   {
     year: "2025",
-    title: "Innovation Excellence Award",
+    title: "Agricultural Development Trust, Baramati | INORA",
     organization: "Agri-Tech India Summit",
     description:
-      "Awarded for innovative biochar production technology that revolutionizes carbon sequestration in agriculture.",
+      "Recognized as a Resource Person at the National Symposium on “Advancing Sustainability, Soil Health, Climate Resilience and Innovation with Biochar,” held on April 01–02, 2025, for valuable contribution and expertise in the field.",
     image: "/award-img-2025.png",
   },
   {
@@ -23,7 +23,7 @@ const awards = [
     title: "National Seminar on Biochar",
     organization: "Agricultural Development Trust, Baramati | INORA",
     description:
-      "Honored as the leading SME manufacturer in the agricultural machinery sector for consistent quality and growth.",
+      "Recognized as a Resource Person at the National Symposium on “Advancing Sustainability, Soil Health, Climate Resilience and Innovation with Biochar,” held on April 01–02, 2025, for valuable contribution and expertise in the field.",
     image: "/award-img-2024-2.png",
   },
   {
