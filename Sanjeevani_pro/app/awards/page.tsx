@@ -37,7 +37,7 @@ const awards = [
   {
     year: "2023",
     title: "Maha Pashudhan Mahotsav Recognition",
-    organization: "National Renewable Energy Congress",
+    organization: "Department of Animal Husbandry, Government of Maharashtra",
     description:
       "Awarded for manufacturing high-quality biomass and waste-to-energy conversion machinery.",
     image: "/award-img-2023.png",
