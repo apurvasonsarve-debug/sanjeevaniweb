@@ -21,7 +21,7 @@ const awards = [
   {
     year: "2024",
     title: "National Seminar on Biochar",
-    organization: "Agricultural Development Trust, Baramati | INORA",
+    organization: "Dr. S. V. Patil Foundation & University of Agricultural Sciences, Dharwad",
     description:
       "Recognized as a Resource Person at the National Symposium on “Advancing Sustainability, Soil Health, Climate Resilience and Innovation with Biochar,” held on April 01–02, 2025, for valuable contribution and expertise in the field.",
     image: "/award-img-2024-2.png",
