@@ -45,7 +45,7 @@ const awards = [
   {
     year: "2022",
     title: "Samarth Mission Appreciation",
-    organization: "Bureau of Indian Standards",
+    organization: "Ministry of Power, Government of India",
     description:
       "Certified for maintaining highest quality standards in manufacturing processes and product output.",
     image: "/award-img-2022.png",
