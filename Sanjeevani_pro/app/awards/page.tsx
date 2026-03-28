@@ -39,7 +39,7 @@ const awards = [
     title: "Maha Pashudhan Mahotsav Recognition",
     organization: "Department of Animal Husbandry, Government of Maharashtra",
     description:
-      "Awarded for manufacturing high-quality biomass and waste-to-energy conversion machinery.",
+      "Honored at Maha Pashudhan Mahotsav 2023 (March 24–26) for contributions to livestock development, aligned with the International Year of Millets 2023 and G20 initiatives, under the guidance of Radhakrishna Vikhe Patil, Minister for Animal Husbandry and Dairy Development, Government of Maharashtra.",
     image: "/award-img-2023.png",
   },
   {
