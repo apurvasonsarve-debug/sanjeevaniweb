@@ -44,7 +44,7 @@ const awards = [
   },
   {
     year: "2022",
-    title: "Quality Excellence Certificate",
+    title: "Samarth Mission Appreciation",
     organization: "Bureau of Indian Standards",
     description:
       "Certified for maintaining highest quality standards in manufacturing processes and product output.",
