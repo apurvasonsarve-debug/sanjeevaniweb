@@ -21,7 +21,7 @@ const awards = [
   {
     year: "2024",
     title: "National Seminar on Biochar",
-    organization: "MSME Development Forum",
+    organization: "Agricultural Development Trust, Baramati | INORA",
     description:
       "Honored as the leading SME manufacturer in the agricultural machinery sector for consistent quality and growth.",
     image: "/award-img-2024-2.png",
