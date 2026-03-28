@@ -61,7 +61,7 @@ const awards = [
 
   {
     year: "2020",
-    title: "Emerging Company of the Year",
+    title: "Trusted Business Award",
     organization: "Indian Agribusiness Awards",
     description:
       "Honored as the fastest-growing agricultural machinery company with innovative product portfolio.",
