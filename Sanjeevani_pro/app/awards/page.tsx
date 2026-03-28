@@ -7,7 +7,7 @@ const awards = [
     title: "Achievers of Maharashtra Award",
     organization: "Sakal Achievers of Maharashtra",
     description:
-      "Recognized for outstanding contribution to sustainable manufacturing practices and eco-friendly machinery production.",
+      "Recognized for outstanding performance and excellence in the machinery industry, earning a place among the distinguished Achievers of Maharashtra.",
     image: "/award-img-01.png",
   },
   {
