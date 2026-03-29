@@ -26,12 +26,12 @@ const galleryImages = [
     id: 2,
     src: "/office-photo.jpg",
     category: "factory",
-    title: "Manufacturing Floor",
+    title: "Office Floor",
     description: "Advanced CNC machining center for precision manufacturing",
   },
   {
     id: 3,
-    src: "/biochar-production-machine-industrial-equipment-gr.jpg",
+    src: "/biomass-pellet-machine.jpg",
     category: "machines",
     title: "Continuous Biochar Plant",
     description: "Our flagship continuous biochar production system",
@@ -82,7 +82,7 @@ const galleryImages = [
     id: 10,
     src: "/manufracturing-area-2.jpg",
     category: "factory",
-    title: "Assembly Line",
+    title: "Manufacturing Floor",
     description: "Quality-controlled assembly process",
   },
   {
