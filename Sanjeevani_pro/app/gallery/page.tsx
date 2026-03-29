@@ -38,7 +38,7 @@ const galleryImages = [
   },
   {
     id: 4,
-    src: "/biomass-briquetting-machine-industrial.jpg",
+    src: "/biochar-11000ltr.jpg",
     category: "machines",
     title: "Biomass Briquetting Machine",
     description: "High-capacity briquetting press for biomass conversion",
