@@ -8,20 +8,20 @@ const productCategories = [
     title: "Biochar Machines",
     description:
       "Advanced batch and continuous type biochar production systems for sustainable agriculture and carbon sequestration.",
-    image: "/biochar-production-machine-industrial-equipment.jpg",
+    image: "/biochar-11000ltr.jpg",
     href: "/products/biochar",
   },
   {
     title: "Biomass Machines",
     description:
       "Complete range of biomass processing equipment including briquetting, pelletizing, and shredding machines.",
-    image: "/biomass-briquetting-pelletizing-machine-industrial.jpg",
+    image: "/biomass-pellet-560b.jpg",
     href: "/products/biomass",
   },
   {
     title: "Other Agro & Bio-energy Machines",
     description: "Specialized equipment for animal feed, waste-to-energy, and custom agro-processing applications.",
-    image: "/agro-machinery-animal-feed-processing-equipment.jpg",
+    image: "/grinder-machine.jpg",
     href: "/products/other",
   },
 ]
