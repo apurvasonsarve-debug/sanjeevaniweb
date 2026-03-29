@@ -8,7 +8,7 @@ const productCategories = [
     title: "Biochar Machines",
     description:
       "Advanced pyrolysis systems for sustainable biochar production. Available in batch and continuous configurations for various production capacities.",
-    image: "/biochar-11000ltr.jpg?height=400&width=600",
+    image: "/placeholder.svg?height=400&width=600",
     href: "/products/biochar",
     products: ["Batch Type Biochar Machines", "Continuous Type Biochar Machines", "Portable Biochar Units"],
   },
@@ -16,7 +16,7 @@ const productCategories = [
     title: "Biomass Machines",
     description:
       "Complete range of biomass processing equipment for converting agricultural waste into valuable fuel products.",
-    image: "/biomass-pellet-560b.jpg?height=400&width=600",
+    image: "/placeholder.svg?height=400&width=600",
     href: "/products/biomass",
     products: ["Briquetting Machines", "Pellet Mills", "Biomass Shredders", "Rotary Dryers"],
   },
@@ -24,7 +24,7 @@ const productCategories = [
     title: "Other Agro & Bio-energy Products",
     description:
       "Specialized machinery for animal feed production, waste processing, and custom agro-industrial applications.",
-    image: "/grinder-machine.jpg?height=400&width=600",
+    image: "/placeholder.svg?height=400&width=600",
     href: "/products/other",
     products: ["Animal Feed Machines", "Waste-to-Energy Systems", "Special Purpose Machines"],
   },
