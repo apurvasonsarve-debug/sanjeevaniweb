@@ -30,7 +30,7 @@ export function InfrastructureSection() {
           <div className="grid grid-cols-1 gap-4 animate-in fade-in slide-in-from-left duration-700">
             <div className="relative aspect-[16/9] rounded-2xl overflow-hidden shadow-md group">
               <Image 
-                src="/biochar-machine.jpg" 
+                src="/manufracturing-area-2.jpg" 
                 alt="Sanjivani Manufacturing Area" 
                 fill 
                 className="object-cover transition-transform duration-500 group-hover:scale-105" 
