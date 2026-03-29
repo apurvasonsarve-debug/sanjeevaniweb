@@ -24,7 +24,7 @@ const galleryImages = [
   },
   {
     id: 2,
-    src: "/industrial-manufacturing-floor-with-cnc-machines-a.jpg",
+    src: "/office-photo.jpg",
     category: "factory",
     title: "Manufacturing Floor",
     description: "Advanced CNC machining center for precision manufacturing",
