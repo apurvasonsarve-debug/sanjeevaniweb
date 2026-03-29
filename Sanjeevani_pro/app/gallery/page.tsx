@@ -17,7 +17,7 @@ const galleryCategories = [
 const galleryImages = [
   {
     id: 1,
-    src: "/modern-manufacturing-factory-exterior-with-green-l.jpg",
+    src: "/delhi-2025-hero.jpeg",
     category: "factory",
     title: "Factory Exterior View",
     description: "Our state-of-the-art manufacturing facility in Maharashtra",
