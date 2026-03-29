@@ -40,7 +40,7 @@ export function InfrastructureSection() {
             <div className="grid grid-cols-2 gap-4">
               <div className="relative aspect-square rounded-2xl overflow-hidden shadow-md group">
                 <Image 
-                  src="/biochar-1500ltr.jpg" 
+                  src="/office-photo.jpg" 
                   alt="Biochar 1500Ltr Machine" 
                   fill 
                   className="object-cover transition-transform duration-500 group-hover:scale-110" 
