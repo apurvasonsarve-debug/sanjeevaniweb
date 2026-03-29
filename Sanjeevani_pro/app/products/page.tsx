@@ -8,7 +8,7 @@ const productCategories = [
     title: "Biochar Machines",
     description:
       "Advanced pyrolysis systems for sustainable biochar production. Available in batch and continuous configurations for various production capacities.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/biochar-11000ltr.jpg?height=400&width=600",
     href: "/products/biochar",
     products: ["Batch Type Biochar Machines", "Continuous Type Biochar Machines", "Portable Biochar Units"],
   },
@@ -63,17 +63,17 @@ export default function ProductsPage() {
                 <div className={index % 2 === 1 ? "lg:order-2" : ""}>
                   <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
                     <Image
-  src={
-    index === 0
-      ? "/biochar-11000ltr.jpg"
-      : index === 1
-      ? "/biomass-pellet-560b.jpg"
-      : "/grinder-machine.jpg"
-  }
-  alt={category.title}
-  fill
-  className="object-cover"
-/>
+                     src={
+                      index === 0
+                      ? "/biochar-11000ltr.jpg"
+                      : index === 1
+                      ? "/biomass-pellet-560b.jpg"
+                      : "/grinder-machine.jpg"
+                    }
+                    alt={category.title}
+                    fill
+                    className="object-cover"
+                    />
                   </div>
                 </div>
                 <div className={index % 2 === 1 ? "lg:order-1" : ""}>
