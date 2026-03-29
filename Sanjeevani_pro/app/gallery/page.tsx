@@ -80,7 +80,7 @@ const galleryImages = [
   },
   {
     id: 10,
-    src: "/factory-assembly-line-workers-industrial-manufactu.jpg",
+    src: "/manufracturing-area-2.jpg",
     category: "factory",
     title: "Assembly Line",
     description: "Quality-controlled assembly process",
