@@ -51,15 +51,8 @@ const galleryImages = [
     description: "Hosting clients from Gujarat for machinery demonstration",
   },
   {
-    id: 6,
-    src: "/government-officials-factory-tour-industrial.jpg",
-    category: "visits",
-    title: "Government Delegation",
-    description: "Visit by agricultural department officials",
-  },
-  {
     id: 7,
-    src: "/professional-engineering-team-group-photo-industri.jpg",
+    src: "/our-team.jpeg",
     category: "team",
     title: "Engineering Team",
     description: "Our dedicated team of engineers and technicians",
@@ -77,13 +70,6 @@ const galleryImages = [
     category: "machines",
     title: "Wood Chipper System",
     description: "Industrial-grade pellet manufacturing machine",
-  },
-  {
-    id: 10,
-    src: "/international-business-delegation-factory-meeting.jpg",
-    category: "visits",
-    title: "International Partners",
-    description: "Meeting with international partners from Africa",
   },
   {
     id: 11,
