@@ -87,7 +87,7 @@ const galleryImages = [
   },
   {
     id: 11,
-    src: "/continuous-1ton-plant.jpg",
+    src: "/wood-chipper.jpg",
     category: "machines",
     title: "Pellet Mill System",
     description: "Industrial-grade pellet manufacturing machine",
