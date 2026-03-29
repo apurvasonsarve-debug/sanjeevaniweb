@@ -87,7 +87,7 @@ const galleryImages = [
   },
   {
     id: 11,
-    src: "/pellet-mill-machine-industrial-biomass.jpg",
+    src: "/continuous-1ton-plant.jpg",
     category: "machines",
     title: "Pellet Mill System",
     description: "Industrial-grade pellet manufacturing machine",
