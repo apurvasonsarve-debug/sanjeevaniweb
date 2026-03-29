@@ -42,7 +42,7 @@ export default function AboutPage() {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: `url('/placeholder.svg?height=800&width=1920')`,
+              backgroundImage: `url('/sanjivani-logo.png?height=800&width=1920')`,
             }}
           />
         </div>
@@ -85,7 +85,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="relative aspect-square rounded-2xl overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/manufracturing-area-2.jpg"
                   alt="Sanjivani Manufacturing Facility"
                   fill
                   className="object-cover"
