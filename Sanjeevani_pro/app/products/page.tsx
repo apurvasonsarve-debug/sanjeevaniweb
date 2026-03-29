@@ -68,7 +68,7 @@ export default function ProductsPage() {
       ? "/biochar-11000ltr.jpg"
       : index === 1
       ? "/biomass-pellet-560b.jpg"
-      : "/other.jpg"
+      : "/grinder-machine.jpg"
   }
   alt={category.title}
   fill
