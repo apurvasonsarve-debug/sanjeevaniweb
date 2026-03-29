@@ -72,13 +72,6 @@ const galleryImages = [
     description: "Industrial-grade pellet manufacturing machine",
   },
   {
-    id: 11,
-    src: "/corporate-team-celebration-office-professional.jpg",
-    category: "team",
-    title: "Team Celebration",
-    description: "Celebrating our 8th anniversary with the entire team",
-  },
-  {
     id: 12,
     src: "/quality-control-testing-laboratory-industrial.jpg",
     category: "factory",
