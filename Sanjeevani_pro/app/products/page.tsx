@@ -67,7 +67,7 @@ export default function ProductsPage() {
     index === 0
       ? "/biochar-11000ltr.jpg"
       : index === 1
-      ? "/biomass.jpg"
+      ? "/biomass-pellet-560b.jpg"
       : "/other.jpg"
   }
   alt={category.title}
