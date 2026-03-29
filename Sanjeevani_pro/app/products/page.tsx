@@ -63,7 +63,7 @@ export default function ProductsPage() {
                 <div className={index % 2 === 1 ? "lg:order-2" : ""}>
                   <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
                     <Image
-                      src={category.image || "/placeholder.svg"}
+                      src={category.image || "biochar-11000ltr.jpg"}
                       alt={category.title}
                       fill
                       className="object-cover"
