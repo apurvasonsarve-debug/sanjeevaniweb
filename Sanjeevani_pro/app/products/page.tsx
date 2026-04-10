@@ -20,7 +20,7 @@ const productCategories = [
     title: "Biomass Machines",
     description:
       "Complete range of biomass processing equipment including briquetting, pelletizing, and shredding machines.",
-    image: "/biomass-pellet-560b.jpg",
+    image: "/biochar-5000ltr.jpg",
     href: "/products/biomass",
     products: [
       "Briquetting Machines",
