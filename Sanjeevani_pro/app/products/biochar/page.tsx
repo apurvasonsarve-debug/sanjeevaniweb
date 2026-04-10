@@ -175,8 +175,8 @@ export default function BiocharPage() {
                 />
               </div>
               <div className="bg-card p-4">
-                <h3 className="font-semibold text-foreground">Coconut</h3>
-                <p className="text-sm text-muted-foreground">Coconut shells and fiber waste</p>
+                <h3 className="font-semibold text-foreground">Tender Coconut</h3>
+                <p className="text-sm text-muted-foreground">Tender Coconut and fiber waste</p>
               </div>
             </div>
 
@@ -241,6 +241,21 @@ export default function BiocharPage() {
             </div>
           </div>
         </div>
+
+        <div className="rounded-2xl overflow-hidden group">
+              <div className="relative aspect-[4/3]">
+                <Image
+                  src="/coconut-shell.jpg"
+                  alt="Coconut shell"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="bg-card p-4">
+                <h3 className="font-semibold text-foreground">Coconut Shells</h3>
+                <p className="text-sm text-muted-foreground">Coconut shells and fiber Waste</p>
+              </div>
+            </div>
       </section>
 
       {/* Batch Type Machines */}
