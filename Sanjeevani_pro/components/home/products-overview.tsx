@@ -58,16 +58,10 @@ export function ProductsOverview() {
             >
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
-                  src={
-                    index === 0
-                    ? "/your-biochar-image.jpg"
-                    : index === 1
-                    ? "/your-biomass-image.jpg"
-                    : "/your-other-machine.jpg"
-                  }
-                  alt={category.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                src={category.image}
+                alt={category.title}
+                fill
+                className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
