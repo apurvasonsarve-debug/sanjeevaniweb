@@ -16,7 +16,7 @@ const productCategories = [
     title: "Biomass Machines",
     description:
       "Complete range of biomass processing equipment for converting agricultural waste into valuable fuel products.",
-    image: "/biochar-11000ltr.jpg?height=400&width=600",
+    image: "/biochar-11000ltr.jpg",
     href: "/products/biomass",
     products: ["Briquetting Machines", "Pellet Mills", "Biomass Shredders", "Rotary Dryers"],
   },
