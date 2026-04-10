@@ -6,27 +6,27 @@ import { Button } from "@/components/ui/button"
 const events = [
   {
     image: "/event-award-ceremony.jpg",
-    caption: "Agri Tech Exhibition 2024",
+    caption: "Sakal Event Felicitation",
   },
   {
     image: "/event-award-recognition.jpg",
-    caption: "Factory Visit by Industry Leaders",
+    caption: "InfoCept Awards Recognition",
   },
   {
     image: "/event-biochar-inspection.jpg",
-    caption: "Product Demonstration Event",
+    caption: "Navsari University Project",
   },
   {
     image: "/event-business-meeting.jpg",
-    caption: "Excellence Award Ceremony",
+    caption: "Official Ministerial Meeting ",
   },
   {
     image: "/event-international-visit.jpg",
-    caption: "Client Partnership Meet",
+    caption: "International Client Visit",
   },
   {
     image: "/event-official-inauguration.jpg",
-    caption: "Renewable Energy Expo 2024",
+    caption: "Factory Inauguration Ceremony",
   },
 ]
 
