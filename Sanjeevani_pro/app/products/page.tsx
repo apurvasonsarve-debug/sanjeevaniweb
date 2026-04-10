@@ -7,26 +7,23 @@ const productCategories = [
   {
     title: "Biochar Machines",
     description:
-      "Advanced pyrolysis systems for sustainable biochar production. Available in batch and continuous configurations for various production capacities.",
-    image: "/placeholder.svg?height=400&width=600",
+      "Advanced batch and continuous type biochar production systems for sustainable agriculture and carbon sequestration.",
+    image: "/biochar-11000ltr.jpg",
     href: "/products/biochar",
-    products: ["Batch Type Biochar Machines", "Continuous Type Biochar Machines", "Portable Biochar Units"],
   },
   {
     title: "Biomass Machines",
     description:
-      "Complete range of biomass processing equipment for converting agricultural waste into valuable fuel products.",
-    image: "/biochar-11000ltr.jpg",
+      "Complete range of biomass processing equipment including briquetting, pelletizing, and shredding machines.",
+    image: "/biomass-pellet-560b.jpg",
     href: "/products/biomass",
-    products: ["Briquetting Machines", "Pellet Mills", "Biomass Shredders", "Rotary Dryers"],
   },
   {
-    title: "Other Agro & Bio-energy Products",
+    title: "Other Agro & Bio-energy Machines",
     description:
-      "Specialized machinery for animal feed production, waste processing, and custom agro-industrial applications.",
-    image: "/placeholder.svg?height=400&width=600",
+      "Specialized equipment for animal feed, waste-to-energy, and custom agro-processing applications.",
+    image: "/grinder-machine.jpg",
     href: "/products/other",
-    products: ["Animal Feed Machines", "Waste-to-Energy Systems", "Special Purpose Machines"],
   },
 ]
 
@@ -65,10 +62,10 @@ export default function ProductsPage() {
                     <Image
                      src={
                       index === 0
-                      ? "/biochar-11000ltr.jpg"
+                      ? "/your-biochar-image.jpg"
                       : index === 1
-                      ? "/biomass-pellet-560b.jpg"
-                      : "/grinder-machine.jpg"
+                      ? "/your-biomass-image.jpg"
+                      : "/your-other-machine.jpg"
                     }
                     alt={category.title}
                     fill
