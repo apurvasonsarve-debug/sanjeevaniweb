@@ -21,8 +21,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    details: ["info@sanjivanii.com", "sales@sanjivanii.com"],
-    action: "mailto:info@sanjivanii.com",
+    details: ["sales005.sam@gmail.com"],
+    action: "mailto:sales005.sam@gmail.com",
   },
   {
     icon: MapPin,
