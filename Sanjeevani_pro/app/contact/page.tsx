@@ -33,7 +33,7 @@ const contactInfo = [
   {
     icon: Clock,
     title: "Business Hours",
-    details: ["Mon - Sat: 9:00 AM - 6:00 PM", "Sunday: Closed"],
+    details: ["Mon - Sat: 9:00 AM - 6:30 PM", "Sunday: Closed"],
     action: "#",
   },
 ]
@@ -53,9 +53,6 @@ export default function ContactPage() {
     name: "",
     email: "",
     phone: "",
-    company: "",
-    inquiryType: "",
-    subject: "",
     message: "",
   })
 
@@ -66,9 +63,6 @@ export default function ContactPage() {
       name: "",
       email: "",
       phone: "",
-      company: "",
-      inquiryType: "",
-      subject: "",
       message: "",
     })
   }
@@ -158,6 +152,7 @@ export default function ContactPage() {
                         required
                       />
                     </div>
+                    </div>
                     <div className="space-y-2">
                       <Label htmlFor="email">Email Address *</Label>
                       <Input
@@ -170,65 +165,6 @@ export default function ContactPage() {
                         required
                       />
                     </div>
-                  </div>
-
-                  <div className="grid md:grid-cols-2 gap-5">
-                    <div className="space-y-2">
-                      <Label htmlFor="phone">Phone Number *</Label>
-                      <Input
-                        id="phone"
-                        name="phone"
-                        type="tel"
-                        value={formData.phone}
-                        onChange={handleChange}
-                        placeholder="+91 XXXXX XXXXX"
-                        required
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="company">Company / Organization</Label>
-                      <Input
-                        id="company"
-                        name="company"
-                        value={formData.company}
-                        onChange={handleChange}
-                        placeholder="Your company name"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid md:grid-cols-2 gap-5">
-                    <div className="space-y-2">
-                      <Label htmlFor="inquiryType">Inquiry Type *</Label>
-                      <Select
-                        value={formData.inquiryType}
-                        onValueChange={(value) => setFormData({ ...formData, inquiryType: value })}
-                      >
-                        <SelectTrigger>
-                          <SelectValue placeholder="Select inquiry type" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          {inquiryTypes.map((type) => (
-                            <SelectItem key={type} value={type}>
-                              {type}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="subject">Subject *</Label>
-                      <Input
-                        id="subject"
-                        name="subject"
-                        value={formData.subject}
-                        onChange={handleChange}
-                        placeholder="Brief subject of your inquiry"
-                        required
-                      />
-                    </div>
-                  </div>
-
                   <div className="space-y-2">
                     <Label htmlFor="message">Message *</Label>
                     <Textarea
