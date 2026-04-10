@@ -42,7 +42,7 @@ export default function AboutPage() {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: `url('/sanjivani-logo.png?height=800&width=1920')`,
+              backgroundImage: `url('/our-team.jpeg')`,
             }}
           />
         </div>
