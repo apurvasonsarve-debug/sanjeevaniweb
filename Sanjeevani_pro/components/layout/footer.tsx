@@ -129,8 +129,15 @@ export function Footer() {
               ))}
             </ul>
             <div className="mt-4 flex items-start gap-2 text-background/70 text-sm">
-              <MapPin className="https://maps.app.goo.gl/S7jh3UdqhdwxV3ev7" />
-              <span>Maharashtra, India</span>
+            <a
+            href="https://maps.app.goo.gl/S7jh3UdqhdwxV3ev7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-start gap-2 hover:text-primary transition-colors"
+            >
+            <MapPin className="h-4 w-4 shrink-0" />
+            <span>Maharashtra, India</span>
+            </a>
             </div>
           </div>
         </div>
