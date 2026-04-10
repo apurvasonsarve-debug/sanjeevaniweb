@@ -211,7 +211,7 @@ export default function AboutPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
               <Image
-                src="/placeholder.svg?height=500&width=700"
+                src="/Industry we sereve.png"
                 alt="Industries We Serve"
                 fill
                 className="object-cover"
