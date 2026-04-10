@@ -24,7 +24,6 @@ const footerLinks = {
     { icon: Phone, text: "+91 7219030002", href: "tel:+917219030002" },
     { icon: Phone, text: "+91 7219030009", href: "tel:+917219030009" },
     { icon: Mail, text: "sales005.sam@gmail.com", href: "mailto:sales005.sam@gmail.com" },
-    { icon: Mail, text: "sales@sanjivanii.com", href: "mailto:sales@sanjivanii.com" },
   ],
 }
 
@@ -130,7 +129,7 @@ export function Footer() {
               ))}
             </ul>
             <div className="mt-4 flex items-start gap-2 text-background/70 text-sm">
-              <MapPin className="h-4 w-4 shrink-0 mt-0.5" />
+              <MapPin className="https://maps.app.goo.gl/S7jh3UdqhdwxV3ev7" />
               <span>Maharashtra, India</span>
             </div>
           </div>
