@@ -23,7 +23,7 @@ const footerLinks = {
   contact: [
     { icon: Phone, text: "+91 7219030002", href: "tel:+917219030002" },
     { icon: Phone, text: "+91 7219030009", href: "tel:+917219030009" },
-    { icon: Mail, text: "info@sanjivanii.com", href: "mailto:info@sanjivanii.com" },
+    { icon: Mail, text: "sales005.sam@gmail.com", href: "mailto:sales005.sam@gmail.com" },
     { icon: Mail, text: "sales@sanjivanii.com", href: "mailto:sales@sanjivanii.com" },
   ],
 }
