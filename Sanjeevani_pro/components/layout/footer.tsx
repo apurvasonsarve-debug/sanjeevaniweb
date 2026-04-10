@@ -136,7 +136,8 @@ export function Footer() {
             className="flex items-start gap-2 hover:text-primary transition-colors"
             >
             <MapPin className="h-4 w-4 shrink-0" />
-            <span>Maharashtra, India</span>
+            <span> Sanjivani Agro Machinery,  
+              Nagpur, Maharashtra, India</span>
             </a>
             </div>
           </div>
