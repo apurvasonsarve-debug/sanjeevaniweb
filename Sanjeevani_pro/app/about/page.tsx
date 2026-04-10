@@ -145,45 +145,39 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-secondary p-6 rounded-2xl">
-              <h3 className="font-semibold text-foreground mb-3">Biochar Production Systems</h3>
+              <h3 className="font-semibold text-foreground mb-3">Biochar Making Machines </h3>
               <p className="text-muted-foreground text-sm">
-                Batch and continuous type pyrolysis machines for producing high-quality biochar from agricultural waste,
-                contributing to carbon sequestration.
+                Advanced pyrolysis systems converting agricultural waste into high-quality biochar for soil and sustainability.
               </p>
             </div>
             <div className="bg-secondary p-6 rounded-2xl">
-              <h3 className="font-semibold text-foreground mb-3">Biomass Processing Equipment</h3>
+              <h3 className="font-semibold text-foreground mb-3">Biomass Pellet Making Machines</h3>
               <p className="text-muted-foreground text-sm">
-                Briquetting machines, pelletizers, shredders, and dryers for efficient biomass conversion and fuel
-                production.
+                Efficient machines that convert biomass into high-density fuel pellets for energy and industrial use.
               </p>
             </div>
             <div className="bg-secondary p-6 rounded-2xl">
-              <h3 className="font-semibold text-foreground mb-3">Animal Feed Machines</h3>
+              <h3 className="font-semibold text-foreground mb-3">Animal Feed Making Machines</h3>
               <p className="text-muted-foreground text-sm">
-                Complete feed processing lines including mixers, grinders, and pellet mills for poultry, cattle, and
-                aqua feed production.
+                Complete solutions for producing nutritious and high-quality feed for livestock and poultry.
               </p>
             </div>
             <div className="bg-secondary p-6 rounded-2xl">
-              <h3 className="font-semibold text-foreground mb-3">Waste-to-Energy Systems</h3>
+              <h3 className="font-semibold text-foreground mb-3">Fish Feed Making Machines</h3>
               <p className="text-muted-foreground text-sm">
-                Innovative solutions for converting organic waste into usable energy, supporting circular economy
-                practices.
+                Specialized equipment for manufacturing floating and sinking aqua feed with high nutritional value.
               </p>
             </div>
             <div className="bg-secondary p-6 rounded-2xl">
               <h3 className="font-semibold text-foreground mb-3">Special Purpose Machines</h3>
               <p className="text-muted-foreground text-sm">
-                Custom-designed machinery for specific applications in agriculture, food processing, and renewable
-                energy sectors.
+                Custom-built machinery designed to meet specific industrial and agricultural processing needs.
               </p>
             </div>
             <div className="bg-secondary p-6 rounded-2xl">
-              <h3 className="font-semibold text-foreground mb-3">Complete Production Lines</h3>
+              <h3 className="font-semibold text-foreground mb-3">Complete Automatic Plants</h3>
               <p className="text-muted-foreground text-sm">
-                End-to-end turnkey solutions with installation, training, and after-sales support for various industrial
-                applications.
+                Fully automated turnkey plants offering end-to-end production solutions with maximum efficiency.
               </p>
             </div>
           </div>
