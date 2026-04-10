@@ -8,7 +8,7 @@ const productCategories = [
     title: "Biochar Machines",
     description:
       "Advanced batch and continuous type biochar production systems for sustainable agriculture and carbon sequestration.",
-    image: "/biochar-11000ltr.jpg",
+    image: "/biochar-5000ltr.jpg",
     href: "/products/biochar",
     products: [
       "Batch Type Biochar Machines",
