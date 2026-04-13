@@ -9,7 +9,7 @@ const achievements = [
   },
   {
     icon: MapPin,
-    value: "18+",
+    value: "25+",
     label: "States",
     description: "Pan-India presence and service network",
   },
