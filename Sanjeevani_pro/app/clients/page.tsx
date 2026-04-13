@@ -48,7 +48,7 @@ const testimonials = [
     name: "Rajesh Patil",
     role: "Farmer & Entrepreneur",
     location: "Maharashtra",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/Notable-clients.png?height=100&width=100",
     quote:
       "Sanjivani's biochar machine transformed my farming business. The quality of machinery and after-sales support is exceptional. I have been using their equipment for 3 years without any major issues.",
   },
