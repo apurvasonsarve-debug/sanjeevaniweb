@@ -56,7 +56,7 @@ const otherProducts = [
     name: "Grinder Machine",
     description:
       "High-performance grinding solution for reducing raw materials into fine, uniform particles.",
-    image: "/grinder-machine.jpg",
+    image: "/grinder-machine-02.png",
     applications: ["Material grinding", "Feed preparation", "Powder production", "Raw material processing"],
     features: ["Fine particle output", "Uniform size", "High performance", "Durable construction"],
   },
