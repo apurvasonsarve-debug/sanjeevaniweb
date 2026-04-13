@@ -3,7 +3,7 @@ import { Quote, MapPin, Building2, Users, TrendingUp } from "lucide-react"
 
 const clientStats = [
   { number: "500+", label: "Satisfied Clients", icon: Users },
-  { number: "18+", label: "States Covered", icon: MapPin },
+  { number: "25+", label: "States Covered", icon: MapPin },
   { number: "50+", label: "Corporate Clients", icon: Building2 },
   { number: "98%", label: "Client Retention", icon: TrendingUp },
 ]
@@ -45,28 +45,28 @@ const clientCategories = [
 
 const testimonials = [
   {
-    name: "Rajesh Patil",
+    name: "Ashfak sir",
     role: "Farmer & Entrepreneur",
-    location: "Maharashtra",
+    location: "Lakhani",
     image: "/placeholder.svg?height=100&width=100",
     quote:
-      "Sanjivani's biochar machine transformed my farming business. The quality of machinery and after-sales support is exceptional. I have been using their equipment for 3 years without any major issues.",
+      "Even in the challenging climate of Lakhani, the biomass pellet machine delivered consistent performance. It’s reliable, efficient, and perfectly suited for our needs.",
   },
   {
-    name: "Priya Sharma",
+    name: "Madhav Industries",
     role: "Director, GreenAgro Industries",
-    location: "Gujarat",
+    location: "Nagbid",
     image: "/placeholder.svg?height=100&width=100",
     quote:
-      "We installed their continuous biochar plant last year and the ROI has been remarkable. The team's technical expertise and commitment to customer satisfaction sets them apart from competitors.",
+      "We are impressed with the machine quality and smooth operation. It has significantly improved our production efficiency.",
   },
   {
-    name: "Dr. Anil Kumar",
+    name: "Janvi Traders",
     role: "Professor, Agricultural University",
-    location: "Punjab",
+    location: "Raipur",
     image: "/placeholder.svg?height=100&width=100",
     quote:
-      "We have been using Sanjivani's machinery for research and training purposes. The build quality is excellent and students get hands-on experience with industry-standard equipment.",
+      "Transforming rice husk into valuable biomass fuel has become simple and profitable. The machine performs exceptionally well.",
   },
   {
     name: "Mohammed Hassan",
