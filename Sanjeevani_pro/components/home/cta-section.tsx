@@ -42,11 +42,11 @@ export function CTASection() {
               <span>+91 7219030002</span>
             </a>
             <a
-              href="mailto:info@sanjivanii.com"
+              href="mailto:sales005.sam@gmail.com"
               className="flex items-center gap-2 hover:text-primary-foreground/80 transition-colors"
             >
               <Mail className="h-5 w-5" />
-              <span>info@sanjivanii.com</span>
+              <span>sales005.sam@gmail.com</span>
             </a>
           </div>
         </div>
