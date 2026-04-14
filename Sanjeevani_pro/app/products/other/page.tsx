@@ -82,23 +82,31 @@ export default function OtherProductsPage() {
   return (
     <div className="pt-16 lg:pt-20">
       {/* Hero Section */}
-      <section className="py-20 lg:py-28 bg-foreground text-background">
-        <div className="container mx-auto px-4 lg:px-8">
+      <section className="relative py-20 lg:py-28 text-background overflow-hidden">
+        <Image
+        src="/other-products-background.jpg" 
+        alt="Other Products Background"
+        fill
+        priority
+        className="object-cover"
+        />
+        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="relative container mx-auto px-4 lg:px-8">
           <Link
-            href="/products"
-            className="inline-flex items-center gap-2 text-background/70 hover:text-primary mb-6 transition-colors"
+          href="/products"
+          className="inline-flex items-center gap-2 text-background/70 hover:text-primary mb-6 transition-colors"
           >
-            <ArrowLeft className="h-4 w-4" />
-            Back to Products
+          <ArrowLeft className="h-4 w-4" />
+          Back to Products
           </Link>
-          <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
-              Other Agro & Bio-energy Products
-            </h1>
-            <p className="text-background/80 text-lg md:text-xl leading-relaxed">
-              Our machines are designed to deliver reliable, efficient, and high-performance solutions for various industrial and agricultural applications. Built with robust engineering and advanced technology, they ensure smooth operation, low maintenance, and long service life. Each machine is developed to improve productivity, reduce operational effort, and support sustainable practices. With a focus on quality and innovation, our machines help businesses achieve consistent results and long-term value.
-            </p>
-          </div>
+        <div className="max-w-3xl">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
+            Other Agro & Bio-energy Products
+          </h1>
+          <p className="text-background/80 text-lg md:text-xl leading-relaxed">
+          Our machines are designed to deliver reliable, efficient, and high-performance solutions for various industrial and agricultural applications. Built with robust engineering and advanced technology, they ensure smooth operation, low maintenance, and long service life. Each machine is developed to improve productivity, reduce operational effort, and support sustainable practices. With a focus on quality and innovation, our machines help businesses achieve consistent results and long-term value.
+          </p>
+        </div>
         </div>
       </section>
 
