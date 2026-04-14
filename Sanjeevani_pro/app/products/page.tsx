@@ -47,18 +47,28 @@ export default function ProductsPage() {
   return (
     <div className="pt-16 lg:pt-20">
       {/* Hero Section */}
-      <section className="py-20 lg:py-28 bg-foreground text-background">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="max-w-3xl">
-            <p className="text-primary font-semibold mb-4 uppercase tracking-wide text-sm">Our Products</p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
-              Sustainable Machinery Solutions
-            </h1>
-            <p className="text-background/80 text-lg md:text-xl leading-relaxed">
-              Discover our comprehensive range of agro and bio-energy machinery designed to transform agricultural waste
-              into valuable resources while promoting sustainable practices.
-            </p>
-          </div>
+      <section className="relative py-20 lg:py-28 text-background overflow-hidden">
+        <Image
+        src="/all-products-background.jpg"
+        alt="Products Background"
+        fill
+        priority
+        className="object-cover"
+        />
+        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="relative container mx-auto px-4 lg:px-8">
+        <div className="max-w-3xl">
+          <p className="text-primary font-semibold mb-4 uppercase tracking-wide text-sm">
+            Our Products
+          </p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
+            Sustainable Machinery Solutions
+          </h1>
+          <p className="text-background/80 text-lg md:text-xl leading-relaxed">
+          Discover our comprehensive range of agro and bio-energy machinery designed to transform agricultural waste
+          into valuable resources while promoting sustainable practices.
+          </p>
+        </div>
         </div>
       </section>
 
