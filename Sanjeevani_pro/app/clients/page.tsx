@@ -112,24 +112,29 @@ export default function ClientsPage() {
   return (
     <div className="pt-16 lg:pt-20">
       {/* Hero Section */}
-      <section className="py-20 lg:py-28 bg-foreground text-background">
-        <Image
-                    src="/Notable-clients.png"
-                    alt="Background"
-                    fill
-                    className="object-cover opacity-20"
-                  />
-              <div className="container mx-auto px-4 lg:px-8">        
-          <div className="max-w-3xl">
-            <p className="text-primary font-semibold mb-4 uppercase tracking-wide text-sm">Our Clients</p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
-              Trusted by Industry Leaders Across India
-            </h1>
-            <p className="text-background/80 text-lg md:text-xl leading-relaxed">
-              From individual farmers to government institutions, we serve a diverse clientele united by their
-              commitment to sustainable agriculture and renewable energy.
-            </p>
-          </div>
+      <section className="py-20 lg:py-28 bg-foreground text-background relative overflow-hidden">
+        <div className="absolute inset-0 -z-10">
+          <Image
+          src="/Notable-clients.png"
+          alt="Clients Background"
+          fill
+          className="object-cover opacity-30"
+          priority
+          />
+        </div>
+        <div className="container mx-auto px-4 lg:px-8 relative z-10">
+        <div className="max-w-3xl">
+          <p className="text-primary font-semibold mb-4 uppercase tracking-wide text-sm">
+            Our Clients
+          </p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
+            Trusted by Industry Leaders Across India
+          </h1>
+          <p className="text-background/80 text-lg md:text-xl leading-relaxed">
+          From individual farmers to government institutions, we serve a diverse clientele united by their
+          commitment to sustainable agriculture and renewable energy.
+          </p>
+        </div>
         </div>
       </section>
 
