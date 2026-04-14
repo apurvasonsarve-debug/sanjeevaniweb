@@ -118,7 +118,7 @@ export default function ClientsPage() {
           src="/Notable-clients.png"
           alt="Clients Background"
           fill
-          className="object-cover opacity-30"
+          className="object-cover"
           priority
           />
         </div>
