@@ -95,7 +95,7 @@ const testimonials = [
 ]
 
 const majorClients = [
-  { name: "State Agriculture Department - Maharashtra", type: "Government" },
+  { name: "NTPC (National Thermal Power Corporation)", type: "Government" },
   { name: "Indian Council of Agricultural Research", type: "Research" },
   { name: "National Bank for Agriculture & Rural Development", type: "Government" },
   { name: "Krishi Vigyan Kendras (Multiple)", type: "Research" },
@@ -111,6 +111,12 @@ export default function ClientsPage() {
       {/* Hero Section */}
       <section className="py-20 lg:py-28 bg-foreground text-background">
         <div className="container mx-auto px-4 lg:px-8">
+        <Image
+                    src="/event-large-group-photo.jpg"
+                    alt="Background"
+                    fill
+                    className="object-cover opacity-30"
+                  />
           <div className="max-w-3xl">
             <p className="text-primary font-semibold mb-4 uppercase tracking-wide text-sm">Our Clients</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
