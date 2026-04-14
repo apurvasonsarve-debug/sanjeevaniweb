@@ -96,16 +96,16 @@ const testimonials = [
 
 const majorClients = [
   { name: "NTPC (National Thermal Power Corporation)", type: "Government" },
-  { name: "Ruchi Soya Industries Ltd.", type: "Research" },
-  { name: "Tata Group", type: "Government" },
-  { name: "Central Institute of Fisheries Education (CIFE) (fish logo)", type: "Research" },
-  { name: "Krishi Vigyan Kendra (KVK) (agriculture emblem)", type: "Corporate" },
-  { name: "CSIR–NEERI (National Environmental Engineering Research Institute)", type: "Research" },
-  { name: "ICAR–CIRCOT (Central Institute for Research on Cotton Technology)", type: "Government" },
-  { name: "BRTC (Bamboo Research & Training Centre)", type: "Cooperative" },
-  { name: "Visvesvaraya National Institute of Technology (VNIT), Nagpur", type: "Cooperative" },
-  { name: "Government of Maharashtra (State Emblem)", type: "Cooperative" },
-  { name: "Sardar Patel Renewable Energy Research Institute (SPRERI)", type: "Cooperative" },
+  { name: "Ruchi Soya Industries Ltd.", type: "Corporate" },
+  { name: "Tata Group", type: "Corporate" },
+  { name: "Central Institute of Fisheries Education (CIFE)", type: "Government & Research" },
+  { name: "Krishi Vigyan Kendra (KVK)", type: "Research" },
+  { name: "CSIR–NEERI (National Environmental Engineering Research Institute)", type: "Government & Research" },
+  { name: "ICAR–CIRCOT (Central Institute for Research on Cotton Technology)", type: "Government & Research" },
+  { name: "BRTC (Bamboo Research & Training Centre)", type: "Government & Research" },
+  { name: "Visvesvaraya National Institute of Technology (VNIT), Nagpur", type: "Government & Research" },
+  { name: "Government of Maharashtra (State Emblem)", type: "Government" },
+  { name: "Sardar Patel Renewable Energy Research Institute (SPRERI)", type: "Research" },
 ]
 
 export default function ClientsPage() {
