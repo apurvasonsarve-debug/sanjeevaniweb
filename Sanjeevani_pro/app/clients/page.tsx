@@ -115,7 +115,7 @@ export default function ClientsPage() {
                     src="/Notable-clients.png"
                     alt="Background"
                     fill
-                    className="object-cover opacity-30"
+                    className="object-cover opacity-20"
                   />
           <div className="max-w-3xl">
             <p className="text-primary font-semibold mb-4 uppercase tracking-wide text-sm">Our Clients</p>
