@@ -86,7 +86,7 @@ export default function BiocharPage() {
       <section className="py-20 lg:py-28 bg-foreground text-background">
         <div className="container mx-auto px-4 lg:px-8">
           <Image
-                      src="/event-large-group-photo.jpg"
+                      src="/biochar-background.jpg"
                       alt="Background"
                       fill
                       className="object-cover opacity-30"
