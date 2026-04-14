@@ -279,7 +279,7 @@ export default function ClientsPage() {
             </div>
             <div className="relative aspect-square bg-card rounded-2xl border border-border flex items-center justify-center">
               <Image
-                src="/Industry we sereve.png?height=500&width=500"
+                src="/industry-we-sereve.png?height=500&width=500"
                 alt="Pan-India Coverage Map"
                 fill
                 className="object-contain p-8"
