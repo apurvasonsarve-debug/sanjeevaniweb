@@ -89,7 +89,7 @@ export default function BiocharPage() {
                       src="/biochar-background.jpg"
                       alt="Background"
                       fill
-                      className="object-cover opacity-30"
+                      className="object-cover"
                     />
           <Link
             href="/products"
