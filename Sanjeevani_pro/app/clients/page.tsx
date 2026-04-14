@@ -69,28 +69,28 @@ const testimonials = [
       "Transforming rice husk into valuable biomass fuel has become simple and profitable. The machine performs exceptionally well.",
   },
   {
-    name: "Mohammed Hassan",
+    name: "Sunil Mase",
     role: "CEO, BioEnergy Solutions",
-    location: "Karnataka",
+    location: "Aurangabad",
     image: "/placeholder.svg?height=100&width=100",
     quote:
-      "As a renewable energy company, we needed reliable biomass processing equipment. Sanjivani delivered exactly what we needed - robust machinery backed by excellent technical support.",
+      "The machine handled our material with ease and provided consistent output. We truly appreciate the performance and support.",
   },
   {
-    name: "Sunita Devi",
+    name: "Ravitech Agro",
     role: "Self-Help Group Leader",
-    location: "Uttar Pradesh",
+    location: "Aurangabad",
     image: "/placeholder.svg?height=100&width=100",
     quote:
-      "Our women's self-help group started a biochar business with Sanjivani's affordable machinery. They provided complete training and helped us establish a sustainable income source.",
+      "A perfect solution for our agro-processing needs. It has enhanced our productivity and product quality.",
   },
   {
-    name: "Vikram Singh",
+    name: "Shree guru Mahima Oil Industries ",
     role: "Agri-Business Owner",
-    location: "Rajasthan",
+    location: "Sahajapur",
     image: "/placeholder.svg?height=100&width=100",
     quote:
-      "I compared multiple manufacturers before choosing Sanjivani. Their machinery quality, pricing, and service network across India made them the clear choice for my biomass project.",
+      "Strong build quality and reliable operation. This machine helped us convert waste into a valuable resource efficiently.",
   },
 ]
 
