@@ -96,13 +96,16 @@ const testimonials = [
 
 const majorClients = [
   { name: "NTPC (National Thermal Power Corporation)", type: "Government" },
-  { name: "Indian Council of Agricultural Research", type: "Research" },
-  { name: "National Bank for Agriculture & Rural Development", type: "Government" },
-  { name: "Krishi Vigyan Kendras (Multiple)", type: "Research" },
-  { name: "Gujarat Agro Industries Corporation", type: "Corporate" },
-  { name: "Tamil Nadu Agricultural University", type: "Research" },
-  { name: "Rajasthan State Seeds Corporation", type: "Government" },
-  { name: "Multiple FPOs across India", type: "Cooperative" },
+  { name: "Ruchi Soya Industries Ltd.", type: "Research" },
+  { name: "Tata Group", type: "Government" },
+  { name: "Central Institute of Fisheries Education (CIFE) (fish logo)", type: "Research" },
+  { name: "Krishi Vigyan Kendra (KVK) (agriculture emblem)", type: "Corporate" },
+  { name: "CSIR–NEERI (National Environmental Engineering Research Institute)", type: "Research" },
+  { name: "ICAR–CIRCOT (Central Institute for Research on Cotton Technology)", type: "Government" },
+  { name: "BRTC (Bamboo Research & Training Centre)", type: "Cooperative" },
+  { name: "Visvesvaraya National Institute of Technology (VNIT), Nagpur", type: "Cooperative" },
+  { name: "Government of Maharashtra (State Emblem)", type: "Cooperative" },
+  { name: "Sardar Patel Renewable Energy Research Institute (SPRERI)", type: "Cooperative" },
 ]
 
 export default function ClientsPage() {
@@ -110,13 +113,13 @@ export default function ClientsPage() {
     <div className="pt-16 lg:pt-20">
       {/* Hero Section */}
       <section className="py-20 lg:py-28 bg-foreground text-background">
-        <div className="container mx-auto px-4 lg:px-8">
         <Image
                     src="/Notable-clients.png"
                     alt="Background"
                     fill
                     className="object-cover opacity-20"
                   />
+              <div className="container mx-auto px-4 lg:px-8">        
           <div className="max-w-3xl">
             <p className="text-primary font-semibold mb-4 uppercase tracking-wide text-sm">Our Clients</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
@@ -270,7 +273,7 @@ export default function ClientsPage() {
             </div>
             <div className="relative aspect-square bg-card rounded-2xl border border-border flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                src="/Industry we sereve.png?height=500&width=500"
                 alt="Pan-India Coverage Map"
                 fill
                 className="object-contain p-8"
