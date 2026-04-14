@@ -33,7 +33,7 @@ const productCategories = [
     title: "Other Agro & Bio-energy Machines",
     description:
       "Specialized equipment for animal feed, waste-to-energy, and custom agro-processing applications.",
-    image: "/grinder-machine.jpg",
+    image: "/animal-pallete-machines.jpeg",
     href: "/products/other",
     products: [
       "Animal Feed Machines",
