@@ -85,6 +85,12 @@ export default function BiocharPage() {
       {/* Hero Section */}
       <section className="py-20 lg:py-28 bg-foreground text-background">
         <div className="container mx-auto px-4 lg:px-8">
+          <Image
+                      src="/event-large-group-photo.jpg"
+                      alt="Background"
+                      fill
+                      className="object-cover opacity-30"
+                    />
           <Link
             href="/products"
             className="inline-flex items-center gap-2 text-background/70 hover:text-primary mb-6 transition-colors"
