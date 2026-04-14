@@ -110,31 +110,41 @@ export default function BiomassPage() {
   return (
     <div className="pt-16 lg:pt-20">
       {/* Hero Section */}
-      <section className="py-20 lg:py-28 bg-foreground text-background">
-        <div className="container mx-auto px-4 lg:px-8">
-          <Link
-            href="/products"
-            className="inline-flex items-center gap-2 text-background/70 hover:text-primary mb-6 transition-colors"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to Products
-          </Link>
-          <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
-              Biomass Machines
-            </h1>
-            <p className="text-background/80 text-lg md:text-xl leading-relaxed mb-4">
-              Our biomass machines are engineered to convert waste into high-density, uniform biomass fuel through an
-              efficient and controlled process. The system improves fuel consistency, reduces volume, and enhances energy
-              efficiency for reliable performance.
-            </p>
-            <p className="text-background/80 text-lg md:text-xl leading-relaxed">
-              This sustainable solution supports renewable energy generation while minimizing environmental impact.
-              Designed for durability and ease of operation, our biomass machines help turn waste into long-term economic
-              and energy value.
-            </p>
-          </div>
-        </div>
+      <section className="relative py-20 lg:py-28 text-background overflow-hidden">
+        <Image
+        src="/biomass-background.jpg"
+        alt="Biomass Machines Background"
+        fill
+        priority
+        className="object-cover"
+        />
+      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="relative container mx-auto px-4 lg:px-8">
+        <Link
+        href="/products"
+        className="inline-flex items-center gap-2 text-background/70 hover:text-primary mb-6 transition-colors"
+        >
+        <ArrowLeft className="h-4 w-4" />
+        Back to Products
+        </Link>
+      <div className="max-w-3xl">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
+          Biomass Machines
+        </h1>
+        <p className="text-background/80 text-lg md:text-xl leading-relaxed mb-4">
+        Our biomass machines are engineered to convert waste into high-density, 
+        uniform biomass fuel through an efficient and controlled process. 
+        The system improves fuel consistency, reduces volume, and enhances 
+        energy efficiency for reliable performance.
+        </p>
+        <p className="text-background/80 text-lg md:text-xl leading-relaxed">
+        This sustainable solution supports renewable energy generation while 
+        minimizing environmental impact. Designed for durability and ease 
+        of operation, our biomass machines help turn waste into long-term 
+        economic and energy value.
+        </p>
+      </div>
+      </div>
       </section>
 
       {/* Products Grid */}
