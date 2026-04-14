@@ -8,7 +8,6 @@ import { Button } from "@/components/ui/button"
 const galleryCategories = [
   { id: "all", name: "All" },
   { id: "factory", name: "Factory & Infrastructure" },
-  { id: "machines", name: "Machines" },
   { id: "exhibitions", name: "Exhibitions" },
   { id: "visits", name: "Client Visits" },
   { id: "team", name: "Team" },
@@ -19,204 +18,121 @@ const galleryImages = [
     id: 1,
     src: "/delhi-2025-hero.jpeg",
     category: "factory",
-    title: "Factory Exterior View",
-    description: "Our state-of-the-art manufacturing facility in Maharashtra",
   },
   {
     id: 2,
     src: "/office-photo.jpg",
     category: "factory",
-    title: "Office Floor",
-    description: "Advanced CNC machining center for precision manufacturing",
-  },
-  {
-    id: 3,
-    src: "/biomass-pellet-machine.jpg",
-    category: "machines",
-    title: "Biomass Pellet",
-    description: "Our flagship continuous biochar production system",
-  },
-  {
-    id: 4,
-    src: "/biochar-11000ltr.jpg",
-    category: "machines",
-    title: "Biochar Machine",
-    description: "High-capacity briquetting press for biomass conversion",
   },
   {
     id: 5,
     src: "/event-directors-office.jpg",
     category: "visits",
-    title: "Client Factory Visit",
-    description: "Hosting clients from Gujarat for machinery demonstration",
   },
   {
     id: 7,
     src: "/our-team.jpeg",
     category: "team",
-    title: "Engineering Team",
-    description: "Our dedicated team of engineers and technicians",
   },
   {
     id: 8,
     src: "/manufracturing-area-2.jpg",
     category: "factory",
-    title: "Manufacturing Floor",
-    description: "Quality-controlled assembly process",
-  },
-  {
-    id: 9,
-    src: "/wood-chipper.jpg",
-    category: "machines",
-    title: "Wood Chipper System",
-    description: "Industrial-grade pellet manufacturing machine",
   },
   {
     id: 12,
     src: "/quality-control-testing-laboratory-industrial.jpg",
     category: "factory",
-    title: "Quality Testing Lab",
-    description: "In-house quality testing and R&D laboratory",
   },
   {
     id: 16,
     src: "/event-award-ceremony.jpg",
     category: "exhibitions",
-    title: "Excellence Award Ceremony",
-    description: "Industry recognition for outstanding contributions to sustainable manufacturing",
   },
   {
     id: 17,
     src: "/event-official-inauguration.jpg",
     category: "visits",
-    title: "Official Factory Inauguration",
-    description: "Government officials and dignitaries at our manufacturing facility opening",
   },
   {
     id: 18,
     src: "/event-award-recognition.jpg",
     category: "exhibitions",
-    title: "National Award Ceremony",
-    description: "Recognition for contributions to textile industry development",
   },
   {
     id: 19,
     src: "/event-trade-show.jpg",
     category: "exhibitions",
-    title: "Government Officials at Trade Show",
-    description: "Demonstrating our machinery at a national agriculture and industry trade exhibition",
   },
   {
     id: 20,
     src: "/event-directors-office.jpg",
     category: "team",
-    title: "Directors Anil Chouk and Sanjay Kshirsagar",
-    description: "Our founding directors in the corporate office",
   },
   {
     id: 21,
     src: "/event-team-celebration.jpg",
     category: "team",
-    title: "Team Milestone Celebration",
-    description: "Company team celebrating achievements with corporate leadership",
   },
   {
     id: 22,
     src: "/event-seminar.jpg",
     category: "exhibitions",
-    title: "Technical Seminar",
-    description: "Government and industry experts at our technical seminar series",
   },
   {
     id: 23,
     src: "/event-discussion.jpg",
     category: "team",
-    title: "Business Strategy Discussion",
-    description: "Internal team meeting on manufacturing excellence and business growth",
-  },
-  {
-    id: 24,
-    src: "/event-team-machinery.jpg",
-    category: "machines",
-    title: "Team with Biochar Equipment",
-    description: "Technical team posing with state-of-the-art biochar production machinery",
   },
   {
     id: 25,
     src: "/event-business-meeting.jpg",
     category: "visits",
-    title: "Strategic Partnership Meeting",
-    description: "Executives exchanging gifts and discussing partnership opportunities for mutual business growth",
   },
   {
     id: 26,
     src: "/event-cotton-training-center.jpg",
     category: "visits",
-    title: "Cotton Technology Training Center Visit",
-    description: "Team visit to ICAR-CIRCOT (Central Institute for Research on Cotton Technology) in Nagpur",
   },
   {
     id: 27,
     src: "/event-office-recognition.jpg",
     category: "team",
-    title: "Office Recognition Ceremony",
-    description: "Workplace appreciation event recognizing employee contributions and achievements",
   },
   {
     id: 28,
     src: "/event-facility-tour.jpg",
     category: "visits",
-    title: "Facility Tour & Installation Demo",
-    description: "Clients and partners touring the manufacturing facility and experiencing machinery installation",
   },
   {
     id: 29,
     src: "/event-yogesh-presentation.jpg",
     category: "exhibitions",
-    title: "Industry Conference Presentation",
-    description: "Mr. Yogesh Gajaralwar presenting Sanjivani Agro Machinery at a national industry conference",
   },
   {
     id: 30,
     src: "/event-biochar-inspection.jpg",
     category: "visits",
-    title: "Biochar Equipment Inspection",
-    description: "Technical experts inspecting specifications of our advanced biochar production kiln",
   },
   {
     id: 31,
     src: "/event-international-visit.jpg",
     category: "visits",
-    title: "International Delegation at Equipment",
-    description: "International visitor examining our large-scale biochar production system with technical team",
-  },
-  {
-    id: 32,
-    src: "/event-team-machinery-showcase.jpg",
-    category: "machines",
-    title: "Engineering Team Showcase",
-    description: "Technical team with advanced industrial biochar and biomass processing equipment",
   },
   {
     id: 33,
     src: "/event-large-group-photo.jpg",
     category: "team",
-    title: "Open House & Facility Gathering",
-    description: "Large group of visitors and stakeholders at manufacturing facility event",
   },
   {
     id: 34,
     src: "/event-trade-exhibition.jpg",
     category: "exhibitions",
-    title: "Trade Exhibition Booth Demo",
-    description: "Live demonstration of grinding machine and cyclone technology at trade show",
   },
   {
     id: 35,
     src: "/event-factory-team-gathering.jpg",
     category: "team",
-    title: "Company Family Event",
-    description: "Entire company team gathered at Sanjivani Agro Machinery facility for celebration",
   },
 ]
 
@@ -228,20 +144,20 @@ export default function GalleryPage() {
   const displayedImages =
     activeCategory === "all" ? galleryImages : galleryImages.filter((img) => img.category === activeCategory)
 
-  const openLightbox = (index) => {
+  const openLightbox = (index: number) => {
     setCurrentImageIndex(index)
     setLightboxOpen(true)
   }
 
-  const closeLightbox = () => {
+  const closeLightbox = (): void => {
     setLightboxOpen(false)
   }
 
-  const goToPrevious = () => {
+  const goToPrevious = (): void => {
     setCurrentImageIndex((prevIndex) => (prevIndex === 0 ? displayedImages.length - 1 : prevIndex - 1))
   }
 
-  const goToNext = () => {
+  const goToNext = (): void => {
     setCurrentImageIndex((prevIndex) => (prevIndex === displayedImages.length - 1 ? 0 : prevIndex + 1))
   }
 
@@ -304,15 +220,12 @@ export default function GalleryPage() {
               >
                 <Image
                   src={image.src || "/placeholder.svg"}
-                  alt={image.title}
+                  alt="Gallery Image"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                  <h3 className="text-background font-semibold text-sm">{image.title}</h3>
-                  <p className="text-background/70 text-xs mt-1">{image.description}</p>
-                </div>
+                <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
             ))}
           </div>
@@ -350,16 +263,13 @@ export default function GalleryPage() {
             <div className="relative aspect-video rounded-xl overflow-hidden">
               <Image
                 src={displayedImages[currentImageIndex].src || "/placeholder.svg"}
-                alt={displayedImages[currentImageIndex].title}
+                alt="Gallery Image"
                 fill
                 className="object-contain"
               />
             </div>
             <div className="text-center mt-4">
-              <h3 className="text-background font-semibold text-lg">{displayedImages[currentImageIndex].title}</h3>
-              <p className="text-background/70 text-sm mt-1">{displayedImages[currentImageIndex].description}</p>
-              <p className="text-background/50 text-xs mt-2">
-                {currentImageIndex + 1} / {displayedImages.length}
+              <p className="text-background/50 text-xs mt-2">{currentImageIndex + 1} / {displayedImages.length}
               </p>
             </div>
           </div>
