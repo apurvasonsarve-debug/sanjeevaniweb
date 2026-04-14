@@ -40,11 +40,6 @@ const galleryImages = [
     category: "factory",
   },
   {
-    id: 12,
-    src: "/quality-control-testing-laboratory-industrial.jpg",
-    category: "factory",
-  },
-  {
     id: 16,
     src: "/event-award-ceremony.jpg",
     category: "exhibitions",
