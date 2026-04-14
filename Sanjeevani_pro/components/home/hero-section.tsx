@@ -66,7 +66,7 @@ export function HeroSection() {
                 <p className="text-sm text-background/70">Installations</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-primary">18+</p>
+                <p className="text-3xl font-bold text-primary">25+</p>
                 <p className="text-sm text-background/70">States Covered</p>
               </div>
             </div>
