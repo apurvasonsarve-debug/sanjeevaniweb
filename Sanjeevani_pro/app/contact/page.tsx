@@ -154,6 +154,18 @@ export default function ContactPage() {
                     </div>
                     </div>
                     <div className="space-y-2">
+                      <Label htmlFor="phone">Phone Number *</Label>
+                      <Input
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      placeholder="Enter your phone number"
+                      required
+                      />
+                    </div>
+                    <div className="space-y-2">
                       <Label htmlFor="email">Email Address *</Label>
                       <Input
                         id="email"
