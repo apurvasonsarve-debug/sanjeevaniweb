@@ -83,32 +83,45 @@ export default function BiocharPage() {
   return (
     <div className="pt-16 lg:pt-20">
       {/* Hero Section */}
-      <section className="py-20 lg:py-28 bg-foreground text-background">
-        <div className="container mx-auto px-4 lg:px-8">
-          <Image
-                      src="/biochar-background.jpg"
-                      alt="Background"
-                      fill
-                      className="object-cover"
-                    />
-          <Link
-            href="/products"
-            className="inline-flex items-center gap-2 text-background/70 hover:text-primary mb-6 transition-colors"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to Products
-          </Link>
-          <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
-              Biochar Machines
-            </h1>
-            <p className="text-background/80 text-lg md:text-xl leading-relaxed">
-              Advanced pyrolysis systems for sustainable biochar production. Our machines convert agricultural waste
-              into high-quality biochar, contributing to carbon sequestration and soil health improvement.
-            </p>
-          </div>
-        </div>
-      </section>
+      {/* Hero Section */}
+<section className="relative py-20 lg:py-28 text-background overflow-hidden">
+
+  {/* Background Image */}
+  <Image
+    src="/biochar-hero.jpg"   // <-- put your image here
+    alt="Biochar Background"
+    fill
+    priority
+    className="object-cover"
+  />
+
+  {/* Dark Overlay (important for text visibility) */}
+  <div className="absolute inset-0 bg-black/60"></div>
+
+  {/* Content */}
+  <div className="relative container mx-auto px-4 lg:px-8">
+    <Link
+      href="/products"
+      className="inline-flex items-center gap-2 text-background/70 hover:text-primary mb-6 transition-colors"
+    >
+      <ArrowLeft className="h-4 w-4" />
+      Back to Products
+    </Link>
+
+    <div className="max-w-3xl">
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
+        Biochar Machines
+      </h1>
+
+      <p className="text-background/80 text-lg md:text-xl leading-relaxed">
+        Advanced pyrolysis systems for sustainable biochar production. 
+        Our machines convert agricultural waste into high-quality biochar, 
+        contributing to carbon sequestration and soil health improvement.
+      </p>
+    </div>
+
+  </div>
+</section>
 
       {/* Raw Materials Section */}
       <section className="py-20 lg:py-28 bg-secondary">
