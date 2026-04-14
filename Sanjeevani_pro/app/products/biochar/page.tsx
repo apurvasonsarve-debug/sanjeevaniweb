@@ -88,7 +88,7 @@ export default function BiocharPage() {
 
   {/* Background Image */}
   <Image
-    src="/biochar-hero.jpg"   // <-- put your image here
+    src="/biochar-background.jpg"   // <-- put your image here
     alt="Biochar Background"
     fill
     priority
