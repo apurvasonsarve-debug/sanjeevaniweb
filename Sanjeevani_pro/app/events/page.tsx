@@ -110,7 +110,7 @@ export default function EventsPage() {
       <section className="py-20 lg:py-28 text-background relative overflow-hidden">
         <div className="absolute inset-0 -z-20">
           <Image
-          src="/events-background.jpg"
+          src="/event-background.jpeg"
           alt="Events Background"
           fill
           className="object-cover"
