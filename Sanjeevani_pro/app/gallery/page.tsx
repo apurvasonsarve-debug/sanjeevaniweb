@@ -159,25 +159,29 @@ export default function GalleryPage() {
   return (
     <div className="pt-16 lg:pt-20">
       {/* Hero Section */}
-      <section className="py-20 lg:py-28 bg-foreground text-background relative overflow-hidden">
+      <section className="py-20 lg:py-28 text-background relative overflow-hidden">
         <div className="absolute inset-0 -z-20">
           <Image
-            src="/gallery-background.jpeg"
-            alt="Background"
-            fill
-            className="object-cover opacity-30"
+          src="/gallery-background.jpeg"
+          alt="Gallery Background"
+          fill
+          priority
+          className="object-cover"
           />
         </div>
+        <div className="absolute inset-0 bg-black/60 -z-10"></div>
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
-          <div className="max-w-3xl">
-            <p className="text-primary font-semibold mb-4 uppercase tracking-wide text-sm">Gallery</p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
-              A Visual Journey Through Excellence
-            </h1>
-            <p className="text-background/80 text-lg md:text-xl leading-relaxed">
-              Explore our manufacturing facility, machinery range, exhibitions, and the people who make it all possible.
-            </p>
-          </div>
+        <div className="max-w-3xl">
+          <p className="text-primary font-semibold mb-4 uppercase tracking-wide text-sm">
+            Gallery
+          </p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
+            A Visual Journey Through Excellence
+          </h1>
+          <p className="text-background/80 text-lg md:text-xl leading-relaxed">
+          Explore our manufacturing facility, machinery range, exhibitions, and the people who make it all possible.
+          </p>
+        </div>
         </div>
       </section>
 
