@@ -159,7 +159,7 @@ export default function GalleryPage() {
   return (
     <div className="pt-16 lg:pt-20">
       {/* Hero Section */}
-      <section className="py-20 lg:py-28 bg-foreground text-background relative overflow-hidden">
+      <section className="py-20 lg:py-28 text-background relative overflow-hidden">
         <div className="absolute inset-0 -z-20">
           <Image
             src="/event-factory-team-gathering.jpg"
