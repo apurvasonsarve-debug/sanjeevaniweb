@@ -49,7 +49,7 @@ export default function ProductsPage() {
       {/* Hero Section */}
       <section className="relative py-20 lg:py-28 text-background overflow-hidden">
         <Image
-        src="/all-products-background.jpg"
+        src="/all-products-background.jpeg"
         alt="Products Background"
         fill
         priority
