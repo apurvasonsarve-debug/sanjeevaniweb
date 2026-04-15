@@ -77,8 +77,18 @@ export default function ContactPage() {
   return (
     <div className="pt-16 lg:pt-20">
       {/* Hero Section */}
-      <section className="py-20 lg:py-28 bg-foreground text-background">
-        <div className="container mx-auto px-4 lg:px-8">
+      <section className="py-20 lg:py-28 text-background relative overflow-hidden">
+        <div className="absolute inset-0 -z-20">
+          <Image
+          src="/contactus-background.jpeg"
+          alt="Contact Background"
+          fill
+          priority
+          className="object-cover"
+          />
+        </div>
+        <div className="absolute inset-0 bg-black/60 -z-10"></div>
+        <div className="container mx-auto px-4 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <p className="text-primary font-semibold mb-4 uppercase tracking-wide text-sm">Contact Us</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6 leading-tight text-balance">
