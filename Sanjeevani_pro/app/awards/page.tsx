@@ -106,7 +106,7 @@ export default function AwardsPage() {
       <section className="py-20 lg:py-28 text-background relative overflow-hidden">
         <div className="absolute inset-0 -z-20">
           <Image
-          src="/award-background.jpg"
+          src="/award-background.jpeg"
           alt="Awards Background"
           fill
           priority
