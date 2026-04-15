@@ -162,7 +162,7 @@ export default function GalleryPage() {
       <section className="py-20 lg:py-28 text-background relative overflow-hidden">
         <div className="absolute inset-0 -z-20">
           <Image
-            src="/event-background.jpeg"
+            src="/gallery-background.jpeg"
             alt="Background"
             fill
             className="object-cover opacity-30"
