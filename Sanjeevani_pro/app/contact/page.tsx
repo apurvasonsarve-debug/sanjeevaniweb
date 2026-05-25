@@ -220,8 +220,7 @@ export default function ContactPage() {
                 <div className="absolute inset-0 bg-foreground/60 flex items-center justify-center">
                   <div className="text-center text-background">
                     <MapPin className="h-10 w-10 mx-auto mb-2 text-primary" />
-                    <p className="font-semibold"> Sanjivani Agro Machinery,  
-                      Nagpur, Maharashtra, India</p>
+                    <p className="font-semibold"> J, 30, Hingna Rd, Midc, Lokmanya Nagar, Nagpur, Nildoh ct, Maharashtra 441110</p>
                   </div>
                 </div>
               </div>
