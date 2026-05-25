@@ -27,7 +27,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Address",
-    details: ["Sanjivani Agro Machinery", "Maharashtra, India"],
+    details: ["J, 30, Hingna Rd, Midc, Lokmanya Nagar, Nagpur, Nildoh ct, Maharashtra 441110"],
     action: "#",
   },
   {
