@@ -136,8 +136,7 @@ export function Footer() {
             className="flex items-start gap-2 hover:text-primary transition-colors"
             >
             <MapPin className="h-4 w-4 shrink-0" />
-            <span> Sanjivani Agro Machinery,  
-              Nagpur, Maharashtra, India</span>
+            <span> J, 30, Hingna Rd, Midc, Lokmanya Nagar, Nagpur, Nildoh ct, Maharashtra 441110</span>
             </a>
             </div>
           </div>
